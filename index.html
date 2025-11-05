@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Química Total: Seu Portal Completo de Estudos</title>
+    <title>Química Total: Seu Portal Completo de Estudos e Pesquisa</title>
 
     <style>
         /* CSS para o Estilo do Site */
         body {
-            font-family: 'Arial', sans-serif;
-            line-height: 1.6;
+            font-family: 'Georgia', serif; /* Fonte mais clássica para texto longo */
+            line-height: 1.7;
             margin: 0;
             padding: 0;
             background-color: #f4f4f9;
@@ -17,172 +17,246 @@
         }
 
         header {
-            background-color: #007bff; /* Azul vibrante */
+            background-color: #004d99; /* Azul escuro, profissional */
             color: white;
-            padding: 30px 20px;
+            padding: 40px 20px;
             text-align: center;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
         }
 
         header h1 {
             margin: 0;
-            font-size: 2.5em;
+            font-size: 3em;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+            font-style: italic;
         }
 
         nav {
-            background-color: #333;
+            background-color: #1a1a1a; /* Preto/Cinza bem escuro */
             overflow: hidden;
             display: flex;
             justify-content: center;
-            border-bottom: 5px solid #ffc107; /* Detalhe amarelo */
+            border-bottom: 7px solid #ff5722; /* Laranja/Cobre - cor de reação/fogo */
+            position: sticky; /* Sticky Nav para facilitar a navegação */
+            top: 0;
+            z-index: 1000;
         }
 
         nav a {
             display: block;
             color: white;
             text-align: center;
-            padding: 14px 20px;
+            padding: 16px 25px;
             text-decoration: none;
-            transition: background-color 0.3s;
+            transition: background-color 0.3s, color 0.3s;
+            font-weight: bold;
         }
 
         nav a:hover {
-            background-color: #0056b3; /* Azul mais escuro no hover */
+            background-color: #ff5722;
+            color: #fff;
         }
 
         main {
-            padding: 20px;
-            max-width: 1200px;
-            margin: 20px auto;
+            padding: 30px;
+            max-width: 1300px;
+            margin: 30px auto;
         }
 
         section {
             background-color: white;
-            padding: 30px;
-            margin-bottom: 30px;
-            border-radius: 10px;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            margin-bottom: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
         }
 
         section h2 {
-            color: #007bff;
-            border-bottom: 3px solid #ffc107;
-            padding-bottom: 10px;
+            color: #004d99;
+            border-bottom: 4px solid #ff5722;
+            padding-bottom: 15px;
             margin-top: 0;
-            font-size: 2em;
+            font-size: 2.5em;
+            text-transform: capitalize;
+        }
+        
+        section h3 {
+            color: #333;
+            margin-top: 25px;
+            font-size: 1.5em;
+            border-left: 5px solid #ff5722;
+            padding-left: 10px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        ul, ol {
+            margin-bottom: 20px;
+            padding-left: 40px;
         }
 
         .warning {
             background-color: #fff3cd;
             color: #856404;
-            padding: 15px;
+            padding: 20px;
             border: 1px solid #ffeeba;
-            border-left: 5px solid #ffc107;
-            border-radius: 5px;
+            border-left: 8px solid #ffc107;
+            border-radius: 8px;
+            font-size: 1.1em;
+            font-weight: bold;
         }
 
         footer {
-            background-color: #333;
-            color: white;
+            background-color: #1a1a1a;
+            color: #ccc;
             text-align: center;
-            padding: 15px 0;
-            margin-top: 30px;
+            padding: 20px 0;
+            margin-top: 40px;
             font-size: 0.9em;
+            border-top: 3px solid #ff5722;
         }
 
         footer a {
             color: #9ad5ff;
             text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        footer a:hover {
+            color: #ff5722;
         }
     </style>
 </head>
 <body>
 
     <header>
-        <h1>Bem-vindo ao Mundo da Química Total</h1>
-        <p>A Ciência da Matéria, da Molécula ao Universo.</p>
+        <h1>Química Total: Seu Portal Completo de Estudos e Pesquisa</h1>
+        <p>🔬 A Ciência da Matéria, desde a Partícula Subatômica até os Processos Industriais mais Complexos.</p>
     </header>
 
     <nav>
-        <a href="#geral">Química Geral</a>
-        <a href="#tabela">Tabela Periódica</a>
-        <a href="#organica">Química Orgânica</a>
-        <a href="#fisica">Físico-Química</a>
-        <a href="#experimentos">Experimentos</a>
+        <a href="#geral">Química Geral e Inorgânica</a>
+        <a href="#tabela">Tabela Periódica Avançada</a>
+        <a href="#organica">Química Orgânica e Biológica</a>
+        <a href="#fisica">Físico-Química e Termodinâmica</a>
+        <a href="#analitica">Química Analítica</a>
+        <a href="#experimentos">Experimentos e Segurança</a>
     </nav>
 
     <main>
         <section id="geral">
-            <h2>Química Geral: Os Fundamentos</h2>
-            <p>A base de todo o conhecimento químico. Aqui você explora a estrutura da matéria, as leis fundamentais das reações e as ligações que unem os elementos.</p>
+            <h2>Química Geral e Inorgânica: Os Fundamentos da Matéria</h2>
+            <p>A Química Geral é a fundação sobre a qual todo o conhecimento químico se apoia. Ela estabelece os princípios que governam a composição, as propriedades e as transformações da matéria. Estudar a química geral é compreender por que a água é líquida, por que o sal é solúvel e como os elementos interagem em reações espetaculares. Sem esses pilares, a química orgânica, a bioquímica e a físico-química seriam um mistério indecifrável.</p>
 
-            <h3>O Átomo e a Matéria</h3>
-            <p>Tudo o que nos cerca é composto por átomos, formados por <strong>prótons</strong> e <strong>nêutrons</strong> no núcleo, e <strong>elétrons</strong> na eletrosfera. As transformações da matéria podem ser classificadas em físicas (mudanças de estado) ou químicas (alteração da estrutura molecular).</p>
+            <h3>1. Estrutura Atômica e Modelos</h3>
+            <p>O conceito de átomo evoluiu dramaticamente desde a esfera indivisível de Dalton. Hoje, o modelo quântico orbital (ou de Schrödinger) descreve o átomo como um núcleo denso de <strong>prótons</strong> (carga positiva) e <strong>nêutrons</strong> (neutros), cercado por <strong>elétrons</strong> (carga negativa) em regiões de alta probabilidade, os orbitais. Os números quânticos (principal $n$, azimutal $l$, magnético $m_l$ e de spin $m_s$) definem a energia, forma, orientação e o "giro" de cada elétron, respectivamente. A distribuição eletrônica de Pauling e a regra de Hund são essenciais para prever a reatividade de um elemento.</p>
             
-            <h3>Tipos de Ligações</h3>
+            <h3>2. Ligações Químicas e a Regra do Octeto</h3>
+            <p>Os átomos interagem para atingir a estabilidade de oito elétrons na última camada (Regra do Octeto, exceto para H, He e elementos do período 3 em diante que podem expandir o octeto). Esta busca por estabilidade origina os três tipos principais de ligação:</p>
             <ul>
-                <li><strong>Iônica:</strong> Transferência de elétrons (metal + ametal). Forma íons e compostos cristalinos.</li>
-                <li><strong>Covalente:</strong> Compartilhamento de elétrons (ametal + ametal). Forma moléculas.</li>
-                <li><strong>Metálica:</strong> Nuvem de elétrons em torno de cátions metálicos.</li>
+                <li><strong>Iônica:</strong> Ocorre por transferência de elétrons entre um elemento de baixa eletronegatividade (geralmente metal) e um de alta (ametal). O resultado são íons que se unem por atração eletrostática, formando sólidos cristalinos com altos pontos de fusão. Ex: Cloreto de Sódio ($NaCl$).</li>
+                <li><strong>Covalente:</strong> Envolve o compartilhamento de elétrons entre dois ametais. Forma moléculas discretas (como $H_2O$, $CO_2$) ou redes gigantes (como o Diamante). A polaridade da ligação (diferença de eletronegatividade) e a geometria molecular (Teoria VSEPR) definem as propriedades físicas do composto.</li>
+                <li><strong>Metálica:</strong> Característica de metais puros ou ligas, onde os elétrons de valência são "deslocalizados" em uma "nuvem" que envolve os cátions metálicos. É esta nuvem que confere aos metais a maleabilidade, ductilidade e alta condutividade elétrica e térmica.</li>
             </ul>
         </section>
 
         <section id="tabela">
-            <h2>A Tabela Periódica: O Mapa dos Elementos</h2>
-            <p>Organizada em ordem crescente de número atômico (Z), a Tabela Periódica é a principal ferramenta de previsibilidade na Química.</p>
+            <h2>A Tabela Periódica Avançada: Previsibilidade e Propriedades</h2>
+            <p>A Tabela Periódica de Mendeleev/Moseley não é apenas um pôster bonito, é a principal ferramenta heurística da Química. Ela organiza os 118 elementos conhecidos em função de seu número atômico ($Z$), revelando tendências (propriedades periódicas) que permitem prever o comportamento de um elemento sem nunca tê-lo visto.</p>
 
-            <h3>Estrutura e Organização</h3>
-            <p>Os elementos estão dispostos em:</p>
+            <h3>1. Estrutura, Blocos e Classificação</h3>
+            <p>A tabela é dividida em **7 Períodos** (linhas, indicam a última camada preenchida) e **18 Grupos/Famílias** (colunas, indicam o número de elétrons de valência e, consequentemente, propriedades químicas semelhantes). Os elementos são subdivididos em blocos: $s$ (grupos 1 e 2), $p$ (grupos 13 a 18), $d$ (metais de transição) e $f$ (Lantanídeos e Actinídeos).</p>
+            
+            <h3>2. Propriedades Periódicas Chave</h3>
+            <p>A variação de propriedades na tabela segue tendências claras:</p>
             <ul>
-                <li><strong>Períodos (linhas horizontais):</strong> Indicam o número de camadas eletrônicas do átomo. São 7 períodos.</li>
-                <li><strong>Grupos ou Famílias (colunas verticais):</strong> Agrupam elementos com propriedades químicas semelhantes, geralmente devido ao mesmo número de elétrons na camada de valência.</li>
+                <li><strong>Raio Atômico:</strong> Diminui da esquerda para a direita (mais prótons, maior atração) e aumenta de cima para baixo (mais camadas).</li>
+                <li><strong>Eletronegatividade:</strong> A capacidade de um átomo atrair elétrons em uma ligação. Aumenta da esquerda para a direita e de baixo para cima (o Flúor é o mais eletronegativo). É crucial para determinar a polaridade das ligações.</li>
+                <li><strong>Energia de Ionização:</strong> A energia necessária para remover um elétron de um átomo gasoso. Aumenta da esquerda para a direita e de baixo para cima.</li>
+                <li><strong>Eletroafinidade:</strong> A energia liberada (ou absorvida) quando um elétron é adicionado a um átomo gasoso, formando um ânion.</li>
             </ul>
-            <p><strong>Exemplo de Famílias:</strong> Metais Alcalinos (Grupo 1), Halogênios (Grupo 17) e Gases Nobres (Grupo 18).</p>
+            <p>Compreender essas tendências é dominar a reatividade e as características físico-químicas de todos os compostos inorgânicos.</p>
         </section>
 
         <section id="organica">
-            <h2>Química Orgânica: A Química da Vida</h2>
-            <p>É o estudo dos compostos que contêm o elemento Carbono (C). Devido à sua tetravalência (capacidade de fazer 4 ligações) e de se ligar a outros carbonos, ele forma cadeias complexas e diversificadas, essenciais para a biologia.</p>
+            <h2>Química Orgânica e Biológica: A Complexidade do Carbono</h2>
+            <p>Inicialmente definida como a "química dos seres vivos," a Química Orgânica hoje é o estudo dos compostos de Carbono, em grande parte devido à sua tetravalência e à capacidade única de formar cadeias longas, ramificadas e cíclicas (cadeias carbônicas) através de ligações covalentes simples, duplas ou triplas. Essa diversidade estrutural é a chave para a vida.</p>
 
-            <h3>Hidrocarbonetos e Funções</h3>
-            <p>Os hidrocarbonetos são a base, compostos apenas por Carbono e Hidrogênio. A adição de outros elementos (O, N, S, P) cria as Funções Orgânicas, como:</p>
+            <h3>1. Classificação das Cadeias e Isomeria</h3>
+            <p>As cadeias carbônicas são classificadas por saturação (saturadas, insaturadas), disposição (abertas, fechadas) e presença de heteroátomos (homogêneas, heterogêneas). Um conceito vital é a **Isomeria**, onde diferentes compostos possuem a mesma fórmula molecular, mas estruturas diferentes, resultando em propriedades distintas. Ex: Butano e Isomeris. Tipos de Isomeria: plana, geométrica (cis-trans) e óptica.</p>
+
+            <h3>2. Funções Orgânicas e Grupos Funcionais</h3>
+            <p>Um **Grupo Funcional** é um átomo ou grupo de átomos responsável pela reatividade do composto. Eles definem as funções orgânicas. A nomenclatura IUPAC é o sistema universal para nomeá-los.</p>
             <ul>
-                <li><strong>Álcoois:</strong> Presença do grupo -OH (Hidroxila). Ex: Etanol.</li>
-                <li><strong>Cetonas:</strong> Presença do grupo Carbonila (C=O) no meio da cadeia. Ex: Acetona.</li>
-                <li><strong>Ácidos Carboxílicos:</strong> Presença do grupo Carboxila (-COOH). Ex: Ácido Acético.</li>
+                <li><strong>Hidrocarbonetos:</strong> A base. Apenas C e H. Ex: Alcanos, Alcenos, Alcinos e Aromáticos (Benzeno).</li>
+                <li><strong>Compostos Oxigenados:</strong> Álcoois ($\text{-OH}$ em C saturado), Éteres ($\text{R-O-R'}$), Aldeídos ($\text{-CHO}$ terminal), Cetonas ($\text{C=O}$ interno), Ácidos Carboxílicos ($\text{-COOH}$) e Ésteres (derivados de ácidos).</li>
+                <li><strong>Compostos Nitrogenados:</strong> Aminas ($\text{-N}$ ligado a C), Amidas ($\text{-CONH}_{2}$) e Nitrilas ($\text{-CN}$).</li>
             </ul>
+            
+            <h3>3. Introdução à Bioquímica</h3>
+            <p>A Química Orgânica se conecta à Biologia através da Bioquímica, que estuda as moléculas da vida: **carboidratos** (energia), **lipídios** (membranas e reserva), **proteínas** (funções estruturais, enzimáticas) e **ácidos nucleicos** (DNA e RNA, o código genético). O entendimento das reações de polimerização e hidrólise dessas macromoléculas é fundamental.</p>
         </section>
 
         <section id="fisica">
-            <h2>Físico-Química: Energia e Reação</h2>
-            <p>Estuda as relações entre as propriedades físicas e as transformações químicas. Tópicos essenciais incluem Termodinâmica, Cinética e Eletroquímica.</p>
+            <h2>Físico-Química e Termodinâmica: Energia e a Natureza das Transformações</h2>
+            <p>A Físico-Química é a ponte entre a Física e a Química, aplicando princípios físicos (como energia, força e movimento) para explicar fenômenos químicos. Ela se aprofunda no porquê das reações ocorrerem e quão rápido elas se processam, focando em sistemas macroscópicos e microscópicos.</p>
             
-            <h3>Termoquímica</h3>
-            <p>Analisa o calor envolvido nas reações. Reações podem ser <strong>Exotérmicas</strong> (liberam calor, $\Delta H < 0$) ou <strong>Endotérmicas</strong> (absorvem calor, $\Delta H > 0$).</p>
+            <h3>1. Termoquímica e Termodinâmica</h3>
+            <p>O estudo da energia e suas transformações. O calor das reações é medido pela Entalpia ($\Delta H$).</p>
+            <ul>
+                <li><strong>Reações Exotérmicas:</strong> Liberam calor para o ambiente. $\Delta H < 0$. Ex: Queima de combustíveis.</li>
+                <li><strong>Reações Endotérmicas:</strong> Absorvem calor do ambiente. $\Delta H > 0$. Ex: Dissolução de sais em água que esfria a solução.</li>
+            </ul>
+            <p>A **Lei de Hess** permite calcular o $\Delta H$ de uma reação indiretamente. Outros conceitos-chave da Termodinâmica incluem a **Entropia** ($\Delta S$, a medida da desordem do sistema) e a **Energia Livre de Gibbs** ($\Delta G = \Delta H - T\Delta S$), que determina se uma reação é espontânea ($\Delta G < 0$) ou não.</p>
+
+            <h3>2. Cinética Química e o Equilíbrio</h3>
+            <p>A **Cinética Química** estuda a velocidade das reações e os mecanismos de reação. A velocidade é afetada por: **concentração** dos reagentes, **temperatura** (aumento geralmente acelera) e a presença de **catalisadores** (substâncias que aceleram a reação sem serem consumidas, diminuindo a Energia de Ativação). O **Equilíbrio Químico** é atingido quando as velocidades das reações direta e inversa se igualam, e é regido pelo **Princípio de Le Châtelier** (o sistema se opõe à perturbação externa).</p>
+            <p>$$ \text{Velocidade} = k \times [\text{Reagente}]^n $$</p>
+        </section>
+        
+        <section id="analitica">
+            <h2>Química Analítica: A Arte da Medição</h2>
+            <p>A Química Analítica é o campo que se dedica à separação, identificação e quantificação de substâncias químicas. É a ciência que responde a duas perguntas cruciais: **"O que está presente?" (Análise Qualitativa)** e **"Quanto está presente?" (Análise Quantitativa)**. É essencial em controle de qualidade, medicina forense, monitoramento ambiental e pesquisa científica.</p>
+
+            <h3>1. Métodos Clássicos (Via Úmida)</h3>
+            <p>Os métodos tradicionais, como a **Gravimetria** (baseada na medição de massa de um produto puro da reação) e a **Volumetria ou Titulometria** (baseada na medição de volume de um reagente de concentração conhecida consumido na reação), continuam sendo pilares no laboratório, especialmente para padronização de soluções.</p>
             
-            <h3>Velocidade de Reação</h3>
-            <p>A Cinética Química estuda a rapidez com que as reações ocorrem, influenciada por fatores como temperatura, concentração e o uso de catalisadores.</p>
+            <h3>2. Métodos Instrumentais</h3>
+            <p>Com o avanço tecnológico, os métodos instrumentais se tornaram predominantes, oferecendo maior sensibilidade e precisão:</p>
+            <ul>
+                <li><strong>Espectroscopia:</strong> Estudo da interação entre a luz (radiação eletromagnética) e a matéria. Inclui Absorção Atômica, Espectrometria de Massas e Ressonância Magnética Nuclear ($\text{RMN}$).</li>
+                <li><strong>Cromatografia:</strong> Técnica de separação de misturas. Exemplos: HPLC (Cromatografia Líquida de Alta Eficiência) e $\text{GC}$ (Cromatografia Gasosa). Usada para separar e quantificar componentes complexos, como em análises de medicamentos ou poluentes.</li>
+            </ul>
         </section>
 
         <section id="experimentos">
-            <h2>Química na Prática: Experimentos (Com Segurança)</h2>
+            <h2>Química na Prática: Experimentos (Com Máxima Segurança)</h2>
             <p class="warning">
-                <strong>🚨 ATENÇÃO:</strong> Segurança em primeiro lugar! Nunca realize experimentos sem o equipamento de proteção adequado (óculos, luvas) e a supervisão de um adulto ou professor.
+                <strong>🚨 SEGURANÇA É PRIORIDADE ABSOLUTA:</strong> Em qualquer ambiente (laboratório ou casa), sempre use EPIs (Óculos de proteção, luvas e jaleco). Descarte produtos químicos de forma responsável. Todos os experimentos devem ser realizados com **supervisão de um profissional ou professor qualificado**. A Química é fascinante, mas exige respeito e cautela.
             </p>
 
-            <h3>Vulcão Caseiro</h3>
-            <p>Demonstração simples de uma reação ácido-base:</p>
-            <ol>
-                <li>Misture Bicarbonato de Sódio (base) dentro de um recipiente.</li>
-                <li>Adicione Vinagre (ácido) e detergente.</li>
-                <li>A reação de neutralização libera gás dióxido de carbono ($CO_2$), criando a "erupção".</li>
-            </ol>
+            <h3>Vulcão Caseiro (Revisitado)</h3>
+            <p>Este experimento simples é uma clássica demonstração de uma reação ácido-base de dupla-troca. A mistura de Ácido Acético (Vinagre) e Bicarbonato de Sódio ($NaHCO_{3}$) resulta na formação de Acetato de Sódio, água e o gás Dióxido de Carbono ($CO_2$), que é o responsável pela 'erupção' espumante. O detergente apenas aprisiona o gás, tornando o efeito visualmente mais dramático. A equação simplificada é:</p>
+            <p>$$ \text{CH}_{3}\text{COOH} (\text{aq}) + \text{NaHCO}_{3} (\text{s}) \rightarrow \text{CH}_{3}\text{COONa} (\text{aq}) + \text{H}_{2}\text{O} (\text{l}) + \text{CO}_{2} (\text{g}) $$</p>
+            
+            <h3>Cromatografia em Papel</h3>
+            <p>Um exemplo acessível de técnica analítica para separar pigmentos de tinta. A mistura de cores é dissolvida por um solvente (fase móvel) que se move por capilaridade no papel (fase estacionária). Diferentes componentes da tinta têm diferentes afinidades pelo papel e pelo solvente, fazendo com que se separem em diferentes alturas. É uma visualização clara dos princípios de separação.</p>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 Química Total | Desenvolvido para Estudos e Divulgação Científica. | <a href="mailto:contato@quimica.com">Entre em Contato</a></p>
+        <p>&copy; 2025 Química Total | Dedicado ao Avanço e Divulgação da Ciência. | <a href="mailto:contato@quimica.com">Contato e Suporte</a> | <a href="#top">Voltar ao Topo</a></p>
     </footer>
 
 </body>
+
 </html>
